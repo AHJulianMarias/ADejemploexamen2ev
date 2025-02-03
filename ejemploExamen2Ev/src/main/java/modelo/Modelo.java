@@ -64,7 +64,7 @@ public class Modelo {
 		String eleccion = "";
 		while (!eleccion.equalsIgnoreCase("X")) {
 			Scanner sc = new Scanner(System.in);
-			System.out.println("Elige la opción que quieras" + "\n1-Conectarse a mongoDB" + "\n2-Conectar a existDB"
+			System.out.println("Elige la opción que quieras:" + "\n1-Conectarse a mongoDB" + "\n2-Conectar a existDB"
 					+ "\n3-Listar departamentos" + "\n4-Listar empleados" + "\n5-Port completo (mongo-mysql)"
 					+ "\n6-Portar de hibernate a existDB solo empleados"
 					+ "\n7-Portar de hibernate a existDB solo departamentos" + "\n8-Port doble de hibernate a existDB"
