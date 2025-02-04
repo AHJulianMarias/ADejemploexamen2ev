@@ -859,9 +859,9 @@ public class Modelo {
 	private static void anadirDepartamento(String nombreDepartamento, String localidad) {
 		sesion = sf.openSession();
 		Transaction t = sesion.beginTransaction();
-		Departamentos dpto = new Departamentos(nombreDepartamento, localidad, null);
-		sesion.persist(dpto);
-		t.commit();
+//		Departamentos dpto = new Departamentos(nombreDepartamento, localidad, null);
+//		sesion.persist(dpto);
+//		t.commit();
 		sesion.close();
 	}
 }

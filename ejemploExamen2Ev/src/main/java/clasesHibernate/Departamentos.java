@@ -1,5 +1,5 @@
 package clasesHibernate;
-// Generated 2 feb 2025 17:36:22 by Hibernate Tools 6.5.1.Final
+// Generated 4 feb 2025 10:26:40 by Hibernate Tools 6.5.1.Final
 
 import java.util.HashSet;
 import java.util.Set;
@@ -19,13 +19,6 @@ public class Departamentos implements java.io.Serializable {
 
 	public Departamentos(int deptNo) {
 		this.deptNo = deptNo;
-	}
-
-	public Departamentos(String dnombre, String loc, Set empleadoses) {
-		this.deptNo = (int) (Math.random() * 10001);
-		this.dnombre = dnombre;
-		this.loc = loc;
-		this.empleadoses = empleadoses;
 	}
 
 	public Departamentos(int deptNo, String dnombre, String loc, Set empleadoses) {
@@ -65,11 +58,6 @@ public class Departamentos implements java.io.Serializable {
 
 	public void setEmpleadoses(Set empleadoses) {
 		this.empleadoses = empleadoses;
-	}
-
-	@Override
-	public String toString() {
-		return "Departamentos [deptNo=" + deptNo + ", dnombre=" + dnombre + ", loc=" + loc + "]";
 	}
 
 }
